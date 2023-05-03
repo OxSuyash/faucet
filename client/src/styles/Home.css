@@ -1,0 +1,125 @@
+.home-cont .token-cont{
+    background-color: yellowgreen;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.notice{
+    height: 15vh;
+    background-color: #7facf6;
+    padding-top: 15px;
+}
+
+.notice h5{
+    text-align: center;
+}
+
+.notice p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+
+.range{
+    background-color: rgb(224, 154, 242);
+    width: 50vw;
+}
+
+.range p{
+    color: white;
+}
+
+.speed p{
+    color: white;
+}
+
+.speed{
+    background-color: blueviolet;
+    width: 50vw;
+}
+
+.tokens p{
+    text-align: center;
+    padding-top: 45px;
+    font-size: 20px;
+}
+
+.tokens button{
+    margin-left: 17px;
+    margin-top: 30px;
+    padding: 6px;
+    cursor: pointer;
+    border: 3px solid rgb(59, 231, 247);
+    border-radius: 5px;
+}
+.tokens button:hover{
+    color: blue;
+    background-color: rgb(12, 198, 136);
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    background-color: black;
+    padding-top: 80px;
+}
+
+.address p{
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 7px;
+    color: white;
+}
+
+.balance{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.balance button{
+    margin-top: 10px;
+    padding: 4px;
+    border: 3px solid rgb(59, 231, 247);
+    border-radius: 5px;
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: 365px) {
+    .tokens button{
+        padding: 15px;
+        margin-left: 290px;
+        color: black;
+        border-radius: 5px;
+        font-weight: bold;
+        border: 3px solid rgb(7, 198, 215);
+
+    }
+    .range p{
+        color: black;
+        font-weight: bold;
+    }
+    
+    .speed p{
+        color: black;
+        font-weight: bold;
+    }
+
+    .address p{
+        text-align: center;
+    }
+    
+    .balance button{
+        /* text-align: center; */
+        margin-left: -20px;
+        padding: 5px;
+    }
+
+}
+
+
+

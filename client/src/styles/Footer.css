@@ -1,0 +1,22 @@
+.footer-cont{
+    height: 25vh;
+    text-align: center;
+    padding-top: 50px;
+}
+.contact-btn {
+    padding-top: 20px;
+}
+
+.contact-btn button{
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(97, 5, 89);
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact-btn button:hover{
+    transform: scale(0.8);
+}
